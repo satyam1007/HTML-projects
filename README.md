@@ -1,2 +1,2 @@
 # h-project
-This Is My All HTMl Files. Auther - Satyam Mishra
+This Is My All HTML Files. Auther - Satyam Mishra
