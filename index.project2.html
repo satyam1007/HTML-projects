@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <style>
+        
+        body {
+            /* text-align: center; */
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+
+        .row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .col1 {
+            width: 100px;
+        }
+
+        .searchrow {
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row searchrow">
+            <div>
+                General
+            </div>
+            <div><input type="text" placeholder="🔍Search"></div>
+        </div>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col1">
+                <span>Appearance:</span>
+            </div>
+            <div class="col2">
+                <input type="text" placeholder="Blue">For Buttons,Menus,and Windows
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col1">
+                
+            </div>
+            <div class="col col2">
+                <input type="checkbox" name="abc_23">Use dark manu bar and Dock
+                <br>
+                <input type="checkbox" name="abc_23">Automatically hide and show the manu bar
+            </div>
+        </div>
+        <br>
+        <div class="divr">
+            
+        </div>
+        <div>
+            <br>
+            <span>Highlight color:</span>
+            <input type="text" placeholder=" Blue">
+        </div>
+        <br>
+        <div>
+            <span>Sidebar icon size:</span>
+            <input type="text" placeholder="   Medium">
+        </div>
+        <hr>
+        <div>
+            <span>Show scroll bar:</span>
+            <label for="Sectionda">
+                <input type="radio" name="sectioneda"> Automatically based on mouse or trackpadnbsp
+            </label>
+            <br>
+            <label for="Sectiondba">
+                <input type="radio" name="sectioneda"> When scrolling
+            </label>
+            <br>
+            <label for="Sectiondc">
+                <input type="radio" name="sectioneda"> Always
+            </label>
+        </div>
+        <div>
+            <br>
+            <span>Click in the scroll bar to:</span>
+            <label for="sectioneda">
+                <input type="radio" value="section a" name="section"> Jump to the next page
+            </label>
+            <br>
+            <label for="sectionedb">
+                <input type="radio" value="section b" name="section" id="sectiondb"> Jump to the spot that's clicked
+            </label>
+        </div>
+        <hr>
+        <div>
+            <span>Default web browser:</span>
+            <input type="text" placeholder="      Google Chrome">
+            <br>
+        </div>
+        <hr>
+        <input type="checkbox"> Ask to keep changes when closing documents
+        <br>
+        <input type="checkbox"> Close windows when quitting an app
+        <br>
+        <span>when selected,open documents and windows will not be restored when you re-open an app.</span>
+        <div>
+            <br>
+            <span>Recent items:</span>
+            <input type="text" placeholder="10" size="8px"> Documents,apps and servers
+        </div>
+        <br>
+        <input type="checkbox"> Allow Handoff between this Mac and your iCloud devices
+        <hr>
+        <input type="Checkbox"> Use LCD font smoothing when available
+    </div>
+</body>
+
+</html>

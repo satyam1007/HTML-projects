@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your password">
+            <input type="text" placeholder="Enter your Address"><br>
+            <label for="sactioneda">
+                <input type="radio" value="Section a" name="section" id="sectionida"> Section A
+            </label><br>
+            <label for="sactionedb">
+                <input type="radio" value="Section b" name="section" id="sectionidb"> Section B
+            </label><br>
+            <label for="sactionedc">
+                <input type="radio" value="Section c" name="section" id="sectionidc" class="red blue"> Section C
+            </label><br>
+            <label for="sectiondd">
+                <input type="radio" value="section d" name="section" id="sectiond"> Section D
+            </label><br>
+            <input type="checkbox" id="foodcanteen" class="Red" name="canteen">
+            <label for="foodcanteen">Want Food canteen card</label><br>
+            <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+            <textarea name="explain" id="explain" cols="45" rows="3"
+                placeholder="Explain what do you takeing from food canteen."></textarea>
+            <select name="food" id="food">
+
+                <option value="no-food">Select your food item</option>
+                <option value="Burgur">pizza</option>
+                <option value="Maggi">pani puri</option>
+                <option value="ice cream">potato chips</option>
+                <option value="ice cream">ice cream</option>
+                <option value="Maggi">Maggi</option>
+                <option value="Burger">Burger</option>
+                <option value="veg-biryani">biryani</option>
+                <option value="Burger">cold cofee</option>
+                <option value="Burger">no-food</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
